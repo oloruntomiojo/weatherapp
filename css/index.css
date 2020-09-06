@@ -14,7 +14,7 @@ html {
 }
 
 .weather-main {
-    margin: 5rem auto;
+    margin: 3rem auto;
     background: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
     padding: 2rem 2.5rem;
     max-width: 540px;
@@ -97,6 +97,8 @@ hr {
 .modal-main {
     background-color: #fff;
     border-radius: 4px; 
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .modal-header, .modal-body, .modal-footer {
@@ -163,19 +165,19 @@ input:focus {
 @media screen and (min-width: 576px) {
     .weather-main {
         padding: 2rem 4rem;
-        max-width: 540px;
+        max-width: 440px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .weather-main {
-        max-width: 720px;
+        max-width: 540px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .weather-main {
-        max-width: 960px;
+        max-width: 640px;
     }
 }
 
