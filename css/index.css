@@ -14,9 +14,9 @@ html {
 }
 
 .weather-main {
-    margin: 3rem auto;
+    margin: 2rem auto;
     background: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
-    padding: 2rem 2.5rem;
+    padding: 1rem 2.5rem;
     max-width: 540px;
 }
 
@@ -29,13 +29,27 @@ h1, h3, li {
 }
 
 #location {
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: rgb(255, 255, 255);
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
+}
+
+#desc {
+    text-transform: capitalize;
+}
+
+#temp {
+    color: white;
+}
+
+#weather-icon {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
 }
 
 .details {
@@ -68,6 +82,7 @@ hr {
     font-size: .8rem;
     padding: .7em 1.2em;
     font-weight: 500;
+    cursor: pointer;
 }
 
 #change-location {
@@ -134,7 +149,13 @@ hr {
 .close {
     background-color: transparent;
     font-size: 1.2em;
+    padding: .1rem .4rem;
     border: 0;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
 }
 
 form {
@@ -180,7 +201,7 @@ input:focus {
 
 @media screen and (min-width: 576px) {
     .weather-main {
-        padding: 2rem 4rem;
+        padding: 1rem 4rem;
         max-width: 440px;
     }
 }
