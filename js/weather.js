@@ -13,7 +13,7 @@ class Weather {
         return responseData;
     }
 
-    // Change weather Location
+    // Change and update weather Location
     changeLocation(city) {
         this.city = city;
     }
